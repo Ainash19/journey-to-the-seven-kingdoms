@@ -1,0 +1,646 @@
+/*  Author: Ainash Zhumagulova #1330403
+    Date: March 20, 2026
+    Project: Web-site - Journey to the Seven Kingdoms 
+*/
+/* Medival style font import */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+/*
+*  Main colors 
+    #c8a96e - for body
+    #e8cfa4 -on hover
+    #8a6f3a - headings
+    #9aa4ad - h4
+    #1a1814 - site header
+    #8a6f3a - borders
+    #c8a96e - borders on hover
+    #d4cfc5 - main text
+
+*/
+/* BASE */
+
+
+body{
+    background-color: #1a1814;
+    color: #d4cfc5;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+a{
+    color: #c8a96e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e8cfa4;
+}
+/*----------- FONT ------------- */
+h1, h2, h3, h4{
+    font-family: 'Cinzel', Georgia, serif;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    color: #8a6f3a;
+}
+h1{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+h4{
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    color: #9aa4ad;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 1rem;
+    color: #d4cfc5;
+}
+
+/* ----------HEADER -------------- */
+.site-header {
+    width: 100%;
+    background-color: #1a1814;
+    border-bottom: 2px solid #8a6f3a;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+    margin: 0 auto;
+    
+    
+}
+
+/* ---- LOGO ------------ */
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    
+}
+.logo-image{
+    padding-left: 1rem;
+}
+.logo-image img {
+    width: 60px;
+    border: 2px solid #8a6f3a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-size: 1.3rem;
+    
+}
+.logo-link:hover{
+     border-color: #c8a96e;
+    box-shadow: 0 0 12px rgba(200,196,110,0.4rem);
+}
+.logo-image :hover{
+    border-color: #c8a96e;
+    box-shadow: 0 0 12px rgba(200,196,110,0.4rem);
+    transform: translateY(-2px);
+}
+.logo-text {
+    display: flex;
+    flex-direction: column;
+}
+.logo-title{
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #c8a96e;
+    display: block;
+}
+.logo-sub{
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 0.8rem;
+    color: #a09890;
+    letter-spacing: 0.1rem;
+    font-style: italic;
+    display: block;
+
+}
+
+
+/* ---------------NAVIGATION -------------- */
+
+.kingdoms-nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    justify-content: center;
+    padding: 0;
+}
+.kingdoms-nav ul li a{
+    display: block;
+    padding: 0.4rem 0.75rem;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #a09890;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.kingdoms-nav ul li a:hover{
+    color: #c9a96c;
+    border-color: #3d3730;
+    background-color: #221f1b;
+    
+}
+
+/* -------HERO SECTION ---------- */
+.hero{
+    position: relative;
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+}
+.hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
+    filter: brightness(0.45);
+
+}
+.hero-content{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 2rem 1.5rem;
+    background: linear-gradient(to top, rgba(26,24,20,0.95) 0%, transparent 100%);
+}
+.hero-guideLine{ 
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #c8a96e;
+    margin-bottom: 0.4rem;
+   
+}
+
+.hero-title{
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #e8e0d0;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, 0.8);
+    line-height: 1.05;
+    margin-bottom: 0.5rem;
+}
+.hero-desc{
+    font-size: 1rem;
+    color: #d4c9d0;
+    max-width: 520px;
+
+}
+/* ----- MAIN HERO HOME PAGE - taller and centered */
+
+.hero-home{
+    min-height: 480px;
+    text-align: center;
+}
+.hero-home 
+.hero-content {
+    padding: 2.5rem 1.5rem;
+}
+
+.hero-home 
+.hero-title{
+    font-size: 2.2rem;
+    font-family: 'Cinzel Decorative', serif;
+    color: #e8cfa4;
+}
+.hero-home .hero-desc{
+   margin:  0 auto;
+}
+
+.hero-cta{
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    border: 1px solid  #8a6f3a;
+    border-radius: 4px;
+    letter-spacing: 0.18rem;
+    text-transform: uppercase;
+    background: rgba(26, 24, 20, 0.5);
+    transition: all 0.3s ease;
+}
+
+.hero-cta:hover,
+.footer-title:hover{
+    background: rgba(200,169, 110, 0.15);
+    border-color: #c8a96e;
+    color: #e8cfa4;
+    box-shadow: 0 0 20px rgba(200,169,110,0.2);
+}
+
+/* ----------PAGE WRAPPER ----------- */
+.page-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.25rem;
+}
+
+/* -------------INTRO BLOCK - HOME--------- */
+
+.intro-block{
+    background-color: #221f1b;
+    border: 1px solid #3d3730;
+    border-radius: 4px;
+    padding: 2rem 1.75rem;
+    margin: 2.5rem 0;
+}
+
+.intro-block h2 {
+    margin-bottom: 1rem;
+}
+.intro-block p{
+    font-size: 1.08rem;
+    max-width: 700px;
+    line-height: 1.85;
+}
+.intro-block .note{
+    font-size: 1.05rem;
+    font-style: italic;
+    color: #a09890;
+    border-left: 2px solid #8a6f3a;
+    padding-left: 1rem;
+    margin-top: 1.25rem;
+}
+/* -------------------SECTION HEADING------------- */
+.section-header{
+    text-align: center;
+    margin: 2rem 0 1.75rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #3d3730;
+
+}
+.section-header h2{
+    margin-bottom: 0.4rem;
+}
+
+.section-header p{
+    color: #a09890;
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* ------------- KINGDOM GRID - home page ------------- */
+
+/* MOBILE 1 column */
+
+.kingdoms-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.kingdom-card{
+    position: relative;
+    display: block;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid #3d3730;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.kingdom-card:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+}
+
+.kingdom-card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+.kingdom-card:hover img{
+    transform: scale(1.04);
+    filter: brightness(0.5) saturate(0.75);
+}
+.kingdom-card-overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1.1rem 1.25rem;
+    background: linear-gradient(to top, rgba(26,24,20,0.92) 0%, transparent 100%);
+}
+.kingdom-card-name{
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #c8a96e;
+    letter-spacing: 0.05rem;
+    line-height: 1.1;
+}
+.kingdom-card-region{
+    font-size: 0.78rem;
+    color: #9aa4ad;
+    font-style: italic;
+    margin-top: 0.2rem;
+}
+
+.kingdom-card:hover {
+    opacity: 1;
+    transform: translateX(3px);
+}
+
+/* ---------- KINGDOM INTRO (for kingdoms pages only) -------------- */
+.kingdom-intro{
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #3d3730;
+}
+.kingdom-intro h2{
+    margin-bottom: 0.75rem;
+}
+.kingdom-intro p{
+    font-size: 1.05rem;
+    line-height: 1.85;
+    max-width: 760px;
+    padding-right: 2rem;
+}
+.kingdom-info{
+    background-color:  #221f1b;
+    border: 1px solid  #3d3730;
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem;
+    margin-top: 1.5rem;
+}
+.kingdom-info h4{
+    font-size: 0.7rem;
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.15rem;
+    color:  #9aa4ad;
+    text-transform: uppercase;
+
+}
+.info-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid  #3d3730;
+    font-size: 0.9rem;
+}
+.info-row:last-child{
+    border-bottom: none;
+}
+.info-label{
+    color:#a09890;
+    font-style: italic;
+}
+.info-value{
+    color: #e8cfa4;
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+}
+
+
+/*----------------LOCATION CARDS - for kingdom pages only----------- */
+.locations-header{
+    margin: 2.5rem 0 1.5rem 0;
+}
+.locations-header h2{
+    margin-bottom: 0.3rem;
+}
+.locations-header p{
+    color: #a09890;
+    font-style: italic;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.locations-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+
+/* Location Card */
+.location-card {
+  background: #221f1b;
+  border: 1px solid #221f1b;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  width: 100%;
+
+}
+
+.location-card:hover{
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+    transform: translateY(-2px);
+}
+.location-card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Card-body */
+.card-body{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-location-name{
+    font-family: 'Cinzel', Georgia, serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #e8cfa4;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.05rem;
+}
+
+.card-region {
+    font-size: 0.9rem;
+    color: #9aa4ad;
+    font-style: italic;
+    margin-bottom: 0.85rem;
+}
+.card-desc{
+    font-size: 1rem;
+    color:#a09890;
+    line-height: 1.7;
+    margin: 0 0 1rem 0;
+}
+.img-reference{
+    font-size: 0.85rem;
+    color: #baa692;
+    font-style: italic;
+    margin-top: auto;
+}
+
+/* --------    WHY VISIT BOXES  - home page*/
+.why-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.why-box{
+    background-color: #221f1b;
+    border: 1px solid  #3d3730;
+    border-radius: 4px;
+    padding: 1.75rem;
+    text-align: center;
+}
+.why-box h3{
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.why-box p{
+    font-size: 0.9rem;
+    color: #a09890;
+}
+
+
+/* -------- FOOTER -------------- */
+footer{
+    background: #221f1b;
+    border-top: 1px solid #3d3730;
+    padding: 3rem 1.25rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.footer-title{
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    color: #a09890;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 1rem 0 3rem 0;
+    padding: 0.75rem 2rem;
+    border: 1px solid  #8a6f3a;
+    border-radius: 4px;
+    background: rgba(26, 24, 20, 0.5);
+    transition: all 0.3s ease;
+}
+.footer-note{
+    font-size: 0.82rem;
+    color: #5a524a;
+    font-style: italic;
+    max-width: 480px;
+    margin: 0 auto;
+}
+/*---------- MOBILE ----------------*/
+@media screen and (max-width: 425px){
+    .hero-title{
+        font-size: 1.8rem;
+    }
+    .kingdoms-nav ul li a{
+        font-size: 0.65rem;
+        padding: 0.35rem 0.5rem;
+    }
+    .footer-title{
+        padding: 0.6rem;
+        font-size: 0.7rem;
+    }
+}
+/* ------------- TABLET --------------- */
+@media screen and (min-width: 768px) {
+    .kingdoms-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .locations-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .why-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero {
+        height: 420px;
+    }
+    .hero-home {
+        height: 540px;
+    }
+    .hero-title {
+        font-size: 2.6rem;
+    }
+
+}
+
+/* ------------------ DECKTOP ----------------- */
+@media screen and (min-width: 1024px) {
+    .kingdoms-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .locations-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .why-grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .hero{
+        height: 480px;
+    }
+    .hero-home{
+        height: 620px;
+    }
+    .hero-title{
+        font-size: 3.2rem;
+    }
+    .kingdom-intro{
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .site-header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+   
+    
+    
+}
+

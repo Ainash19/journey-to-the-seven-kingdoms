@@ -1,0 +1,48 @@
+Author: Ainash Zhumagulova
+Student #: 1330403
+Project: Website "Journey to the Seven Kingdoms"
+Date: March 20, 2026
+
+RESOURCES / IMAGE REFERENCES
+
+1. Main page (index.html)
+- Logo image - Wikipedia - https://en.wikipedia.org/wiki/Game_of_Thrones
+- Banner image "Map" - AI generated
+- Seven kingdom labels - AI generated
+
+2. The Westerlands (the-westerlands.html)
+- Banner image / San Juan de Gaztelugatxe - Senditur - https://www.senditur.com/en/point-of-interest/hermitage-of-saint-john-of-gaztelugatxe/
+- Walls of Dubrovnik image - Wikipedia - https://en.wikipedia.org/wiki/Walls_of_Dubrovnik
+- Lovrijenac image - Wikipedia - https://en.wikipedia.org/wiki/Lovrijenac
+- Arco de la Estrella image - Wikipedia - https://es.wikipedia.org/wiki/Arco_de_la_Estrella
+- Dubrovnik panoramic image - Wikipedia - https://en.wikipedia.org/wiki/Dubrovnik
+- Itálica Roman Ruins image - Wikipedia - https://en.wikipedia.org/wiki/Italica
+- Girona Cathedral - Wikipedia - https://en.wikipedia.org/wiki/Girona_Cathedral
+
+3. The North (the-north.html)
+- Banner Image / Castle Ward Estate image - Wikipedia - https://en.wikipedia.org/wiki/Castle_Ward
+- Vatnajökull Glacier image -worldnomads.com - https://www.worldnomads.com/explore/northern-europe/iceland/adventure-guide-to-vatnajokull-national-park
+- Dark Hedges image - Wikipedia - https://en.wikipedia.org/wiki/Dark_Hedges
+- Doune Castle image - Wikipedia - https://en.wikipedia.org/wiki/Doune_Castle
+- Inch Abbey image -Discovernorthernireland.com - https://discovernorthernireland.com/listing/inch-abbey/67537101/
+- Tollymore Forest Park - Wikipedia - https://en.wikipedia.org/wiki/Tollymore_Forest_Park
+
+4. The Vale (the-vale.html)
+- Banner / all Meteora images - Wikipedia - https://en.wikipedia.org/wiki/Meteora
+
+5. Dorne (dorne.html)
+- Banner / Real Alcázar image - personal source (used with permission)
+- Baños de Doña María de Padilla image - Wikipedia - https://es.wikipedia.org/wiki/Mar%C3%ADa_de_Padilla
+- Alcazaba of Almería image - Wikipedia - https://en.wikipedia.org/wiki/Alcazaba_of_Almer%C3%ADa
+- Itálica image - Wikipedia - https://en.wikipedia.org/wiki/Italica
+- Alcázar Gardens images - personal source (used with permission)
+
+6. The Riverlands (the-riverlands.html)
+- Gosford Castle image - Wikipedia - https://en.wikipedia.org/wiki/Gosford_Castle
+- Krka National Park image - Wikipedia - https://en.wikipedia.org/wiki/Krka_National_Park
+- Una River Valley - Wikipedia - https://en.wikipedia.org/wiki/Una_%28Sava%29
+- Þjórsá River Plains - South.is -  https://www.south.is/en/place/dynkur-in-thjorsa-river
+
+Notes:
+- AI-generated images are original creations made for this project.
+- Personal photos are marked as: “personal source (used with permission)”.
