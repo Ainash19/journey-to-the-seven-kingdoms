@@ -1,13 +1,20 @@
 # Journey to the Seven Kingdoms
 
-## 🌐 Live Demo
-Check out the live version here:  
-👉 [https://zingy-kashata-4389a3.netlify.app/](https://zingy-kashata-4389a3.netlify.app/)
+🔗 **Live Demo:** https://zingy-kashata-4389a3.netlify.app/
 
-## 🛠️ Built With
-- HTML5
-- CSS3
-- Netlify (hosting)
+## 🏰 About This Project
+A visual journey through the Seven Kingdoms of Westeros. Built with HTML and CSS.
 
-## 📝 About
-A visually immersive website exploring the Seven Kingdoms... (A fan travel guide inspired by HBO's Game of Thrones. Created for educational and inspirational purposes. )
+## ⚠️ Known Issues / Incomplete Features
+- **Stormlands** – Link is currently inactive (coming soon)
+- **The Reach** – Link is currently inactive (coming soon)
+
+These two regions are placeholders and will be connected to their respective pages in future updates.
+
+## ✅ Working Features
+- Winterfell ✓
+- King's Landing ✓
+- The North ✓
+- Dorne ✓
+- The Vale ✓
+- Iron Islands ✓
